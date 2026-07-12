@@ -26,7 +26,7 @@
 - 希望通过同一业务场景理解开发效率、UI 一致性、原生能力成本、性能、调试难度、包体积、存量接入和团队成本的学习者。
 
 ## 在线阅读
-https://android24.github.io/Android-Cross-Platform-Lab
+https://android24.github.io/Android-Cross-Platform-Lab/
 
 ## 目录
 课程二最终比较的不是简单代码量，而是开发效率、UI 一致性、原生能力成本、性能、调试难度、包体积、存量接入和团队成本。
