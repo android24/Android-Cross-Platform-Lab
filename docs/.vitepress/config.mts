@@ -10,8 +10,14 @@ const baseConfig = isEdgeOne ? '/' : '/Android-Cross-Platform-Lab/'
 export default defineConfig({
   lang: 'zh-CN',
   title: "Android Cross Platform Lab",
-  description: "Android 跨平台开发实验",
+  description: "面向 Android 开发者的跨平台开发实验课程，使用统一智能座舱项目比较 Hybrid、React Native、Flutter、KMP 等方案。",
   base: baseConfig,
+  head: [
+    ['meta', { name: 'keywords', content: 'Android,跨平台,Hybrid,React Native,Flutter,Kotlin Multiplatform,Compose Multiplatform,Datawhale' }],
+    ['meta', { property: 'og:title', content: 'Android Cross Platform Lab' }],
+    ['meta', { property: 'og:description', content: '用一个智能座舱项目，系统比较 Android 原生、Hybrid、React Native、Flutter 与 Kotlin Multiplatform 的工程边界。' }],
+    ['meta', { property: 'og:type', content: 'website' }]
+  ],
   markdown: {
     math: true
   },
@@ -19,6 +25,9 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: '/datawhale-logo.png',
     nav: [
+      { text: '课程大纲', link: '/chapter2/chapter2_1' },
+      { text: '项目规格', link: '/chapter2/chapter2_2' },
+      { text: 'GitHub', link: 'https://github.com/android24/Android-Cross-Platform-Lab' },
       { text: 'PDF版本下载', link: 'https://github.com/android24/Android-Cross-Platform-Lab/releases' },
     ],
     search: {
@@ -63,7 +72,7 @@ export default defineConfig({
     },
 
     footer: {
-      message: '<a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2026002630号-1</a> | <a href="https://beian.mps.gov.cn/#/query/webSearch?code=11010602202215" rel="noreferrer" target="_blank">京公网安备11010602202215号</a>',
+      message: 'Android Cross Platform Lab | 基于 Datawhale 开源教程模板建设',
       copyright: '本作品采用 <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议（CC BY-NC-SA 4.0）</a> 进行许可'
     }
   }

@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Android Cross Platform Lab"
   text: "Android 跨平台开发实验"
-  tagline: 用同一个智能座舱项目比较原生、Web、Hybrid、React Native、Flutter、KMP 与 Compose Multiplatform。
+  tagline: 用一个智能座舱项目，系统比较 Android 原生、Hybrid、React Native、Flutter 与 Kotlin Multiplatform 的工程边界。
   image:
     src: /learning.GIF
     alt: Android 跨平台开发实验
@@ -13,31 +13,26 @@ hero:
     - theme: brand
       text: 开始学习
       link: /chapter2/chapter2_1
+    - theme: alt
+      text: 查看项目规格
+      link: /chapter2/chapter2_2
 
 features:
-  - title: 💥 工程实践
-    details: 使用统一贯穿项目比较多种 Android 跨平台方案
-  - title: 🎁 开源课程
-    details: 教程和代码源文件全部托管在GitHub
-  - title: 🌐 选型对比
-    details: 从性能、调试、包体积、原生能力和团队成本形成判断
+  - title: 💥 统一贯穿项目
+    details: 围绕“跨平台智能座舱电子手册与车辆助手”实现目录、搜索、缓存、离线和车辆数据。
+  - title: 🎁 多技术栈实战
+    details: 覆盖 Android 原生、Web/PWA、Hybrid、React Native、Flutter、KMP 与 Compose Multiplatform。
+  - title: 🌐 性能与选型评估
+    details: 从启动速度、内存、帧率、包体积、原生能力成本、调试难度和团队成本形成判断。
 ---
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
   {
-    avatar: 'https://www.github.com/Sm1les.png',
-    name: '待补充',
+    avatar: 'https://github.com/android24.png',
+    name: 'android24',
     title: '项目负责人',
-    links: [
-      { icon: 'github', link: 'https://github.com/android24' },
-    ]
-  },
-  {
-    avatar: 'https://www.github.com/Sm1les.png',
-    name: '待补充',
-    title: '核心贡献者',
     links: [
       { icon: 'github', link: 'https://github.com/android24' },
     ]
@@ -45,6 +40,13 @@ const members = [
 ]
 </script>
 
+## 课程路线
+
+课程二承接“跨平台原理”课程，采用“同一业务、多种技术栈、统一验收标准”的方式组织。学习者会先用 Android 原生建立基准，再分别使用 Web/PWA、Hybrid、React Native、Flutter、Kotlin Multiplatform、Compose Multiplatform 等方案实现同一组业务能力，最终完成性能、工程成本和企业选型比较。
+
+## 项目能力
+
+贯穿项目覆盖左侧目录、右侧图文说明、全局搜索、收藏和浏览历史、图片加载、本地缓存、离线模式、深色主题、多语言、网络请求、文件选择、相机、通知、Android Service、模拟车辆数据、横屏和多分辨率适配。
 
 <h2 align="center">Team</h2>
 <VPTeamMembers size="small" :members />
