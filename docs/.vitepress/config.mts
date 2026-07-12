@@ -3,14 +3,14 @@ import { defineConfig } from 'vitepress'
 
 // 1. 获取环境变量并判断
 // 如果环境变量 EDGEONE 等于 '1'，说明在 EdgeOne 环境，使用根路径 '/'
-// 否则默认是 GitHub Pages 环境，使用仓库子路径 '/easy-vecdb/'
+// 否则默认是 GitHub Pages 环境，使用仓库子路径 '/Android-Cross-Platform-Lab/'
 const isEdgeOne = process.env.EDGEONE === '1'
-const baseConfig = isEdgeOne ? '/' : '/repo-template/'
+const baseConfig = isEdgeOne ? '/' : '/Android-Cross-Platform-Lab/'
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: "Datawhale开源教程",
-  description: "AI前沿知识开源教程",
+  title: "Android Cross Platform Lab",
+  description: "Android 跨平台开发实验",
   base: baseConfig,
   markdown: {
     math: true
@@ -19,7 +19,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: '/datawhale-logo.png',
     nav: [
-      { text: 'PDF版本下载', link: 'https://github.com/datawhalechina/repo-template/releases' },
+      { text: 'PDF版本下载', link: 'https://github.com/android24/Android-Cross-Platform-Lab/releases' },
     ],
     search: {
       provider: 'local',
@@ -43,11 +43,11 @@ export default defineConfig({
     sidebar: [
       {
         items: [
-          { text: '第1章：第1章的标题', link: '/chapter1/' },
-          { text: '第2章：第2章的标题', 
+          { text: '第1章：跨平台原理前置说明', link: '/chapter1/' },
+          { text: '第2章：Android 跨平台开发实验', 
             items: [
-              { text: '第2.1节：第2.1节的标题', link: '/chapter2/chapter2_1' },
-              { text: '第2.2节：第2.2节的标题', link: '/chapter2/chapter2_2' }
+              { text: '第2.1节：课程二教学大纲', link: '/chapter2/chapter2_1' },
+              { text: '第2.2节：贯穿项目需求规格说明', link: '/chapter2/chapter2_2' }
             ]
            }
         ]
@@ -55,11 +55,11 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/datawhalechina/repo-template' }
+      { icon: 'github', link: 'https://github.com/android24/Android-Cross-Platform-Lab' }
     ],
 
     editLink: {
-      pattern: 'https://github.com/datawhalechina/repo-template/blob/main/docs/:path'
+      pattern: 'https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/:path'
     },
 
     footer: {

@@ -1,0 +1,19 @@
+{
+  "appName": "跨平台智能座舱电子手册与车辆助手",
+  "navigation.manual": "电子手册",
+  "navigation.search": "搜索",
+  "navigation.favorites": "收藏",
+  "navigation.history": "历史",
+  "navigation.vehicle": "车辆状态",
+  "navigation.native": "原生能力",
+  "navigation.settings": "设置",
+  "action.favorite": "收藏",
+  "action.unfavorite": "取消收藏",
+  "action.clearHistory": "清空历史",
+  "state.empty": "暂无内容",
+  "state.offline": "当前为离线模式",
+  "vehicle.battery": "电量",
+  "vehicle.range": "续航",
+  "vehicle.speed": "车速",
+  "vehicle.tirePressure": "胎压"
+}

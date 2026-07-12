@@ -1,0 +1,63 @@
+[
+  {
+    "id": "quick-start-cockpit",
+    "categoryId": "quick-start",
+    "title": {
+      "zh": "认识智能座舱",
+      "en": "Explore the Smart Cockpit"
+    },
+    "summary": {
+      "zh": "了解中控屏、仪表区、快捷入口和常用车辆状态。",
+      "en": "Learn about the center display, cluster area, shortcuts, and common vehicle status."
+    },
+    "body": [
+      {
+        "type": "paragraph",
+        "text": {
+          "zh": "智能座舱首页提供车辆状态、常用控制、电子手册和提醒入口。",
+          "en": "The smart cockpit home screen provides vehicle status, common controls, manual access, and alerts."
+        }
+      },
+      {
+        "type": "image",
+        "src": "images/cockpit-overview.png",
+        "alt": {
+          "zh": "智能座舱首页示意",
+          "en": "Smart cockpit home overview"
+        }
+      }
+    ],
+    "tags": ["cockpit", "manual", "home"],
+    "updatedAt": "2026-07-12T00:00:00Z"
+  },
+  {
+    "id": "climate-auto-mode",
+    "categoryId": "climate",
+    "title": {
+      "zh": "自动空调模式",
+      "en": "Automatic Climate Mode"
+    },
+    "summary": {
+      "zh": "了解如何开启并调节自动空调。",
+      "en": "Learn how to enable and adjust automatic climate control."
+    },
+    "body": [
+      {
+        "type": "paragraph",
+        "text": {
+          "zh": "点击中控屏底部的空调入口，进入空调控制面板。",
+          "en": "Tap the climate entry at the bottom of the center display."
+        }
+      },
+      {
+        "type": "paragraph",
+        "text": {
+          "zh": "开启自动模式后，系统会根据车内温度自动调节风量和出风方向。",
+          "en": "After automatic mode is enabled, the system adjusts fan speed and airflow direction based on cabin temperature."
+        }
+      }
+    ],
+    "tags": ["climate", "seat", "auto"],
+    "updatedAt": "2026-07-12T00:00:00Z"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "timestamp": "2026-07-12T00:00:00Z",
+    "speedKph": 0,
+    "batteryPercent": 82,
+    "rangeKm": 430,
+    "tirePressure": {
+      "frontLeft": 2.5,
+      "frontRight": 2.5,
+      "rearLeft": 2.4,
+      "rearRight": 2.4
+    },
+    "doors": {
+      "frontLeft": "closed",
+      "frontRight": "closed",
+      "rearLeft": "closed",
+      "rearRight": "closed"
+    },
+    "climate": {
+      "enabled": true,
+      "temperatureCelsius": 23
+    }
+  },
+  {
+    "timestamp": "2026-07-12T00:00:05Z",
+    "speedKph": 32,
+    "batteryPercent": 81,
+    "rangeKm": 426,
+    "tirePressure": {
+      "frontLeft": 2.5,
+      "frontRight": 2.4,
+      "rearLeft": 2.4,
+      "rearRight": 2.4
+    },
+    "doors": {
+      "frontLeft": "closed",
+      "frontRight": "closed",
+      "rearLeft": "closed",
+      "rearRight": "closed"
+    },
+    "climate": {
+      "enabled": true,
+      "temperatureCelsius": 22
+    }
+  }
+]

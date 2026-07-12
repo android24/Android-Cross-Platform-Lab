@@ -1,0 +1,38 @@
+[
+  {
+    "id": "quick-start",
+    "title": {
+      "zh": "快速开始",
+      "en": "Quick Start"
+    },
+    "parentId": null,
+    "order": 10
+  },
+  {
+    "id": "climate",
+    "title": {
+      "zh": "空调与座椅",
+      "en": "Climate and Seats"
+    },
+    "parentId": null,
+    "order": 20
+  },
+  {
+    "id": "charging",
+    "title": {
+      "zh": "充电与能耗",
+      "en": "Charging and Energy"
+    },
+    "parentId": null,
+    "order": 30
+  },
+  {
+    "id": "driver-assist",
+    "title": {
+      "zh": "驾驶辅助",
+      "en": "Driver Assistance"
+    },
+    "parentId": null,
+    "order": 40
+  }
+]

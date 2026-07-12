@@ -1,0 +1,19 @@
+{
+  "appName": "Cross-Platform Smart Cockpit Manual and Vehicle Assistant",
+  "navigation.manual": "Manual",
+  "navigation.search": "Search",
+  "navigation.favorites": "Favorites",
+  "navigation.history": "History",
+  "navigation.vehicle": "Vehicle Status",
+  "navigation.native": "Native Capabilities",
+  "navigation.settings": "Settings",
+  "action.favorite": "Favorite",
+  "action.unfavorite": "Unfavorite",
+  "action.clearHistory": "Clear History",
+  "state.empty": "No content",
+  "state.offline": "Offline mode is enabled",
+  "vehicle.battery": "Battery",
+  "vehicle.range": "Range",
+  "vehicle.speed": "Speed",
+  "vehicle.tirePressure": "Tire Pressure"
+}
