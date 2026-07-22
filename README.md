@@ -8,7 +8,17 @@
 > [!WARNING]
 > 🧪 Beta公测版本提示：教程主体完成后，将进入细节优化、实验验证和反馈修订阶段，欢迎大家提Issue反馈问题或建议。
 
-本项目是 Android 跨平台开发实验课程仓库。课程二承接“跨平台原理”课程，不再只讲框架 API，而是通过同一个大型贯穿项目，比较 Android 原生、Web/PWA、Hybrid、React Native、Flutter、Kotlin Multiplatform、Compose Multiplatform 等方案在真实工程中的能力边界与成本差异。
+本项目是 Android 跨平台开发实验课程仓库。课程二承接前置课程 [Cross-Platform Internals](https://android24.github.io/Cross-Platform-Internals/)，不再只讲框架 API，而是通过同一个大型贯穿项目，比较 Android 原生、Web/PWA、Hybrid、React Native、Flutter、Kotlin Multiplatform、Compose Multiplatform 等方案在真实工程中的能力边界与成本差异。
+
+两个课程共同组成一条“原理到工程”的学习路径：
+
+```text
+Cross-Platform Internals
+跨平台原理：回答“为什么能跨平台”
+        ↓
+Android Cross Platform Lab
+跨平台实验：回答“工程里怎么落地、怎么评测、怎么选型”
+```
 
 课程二使用大型贯穿项目：
 
@@ -28,12 +38,17 @@
 ## 在线阅读
 https://android24.github.io/Android-Cross-Platform-Lab/
 
+前置课程：
+
+- [Cross-Platform Internals 在线阅读](https://android24.github.io/Cross-Platform-Internals/)
+- [Cross-Platform Internals GitHub 仓库](https://github.com/android24/Cross-Platform-Internals)
+
 ## 目录
 课程二最终比较的不是简单代码量，而是开发效率、UI 一致性、原生能力成本、性能、调试难度、包体积、存量接入和团队成本。
 
 |  章节名   | 简介 | 状态 |
 |  ----  | ---- | ---- |
-| [第1章 跨平台原理](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter1) | 跨平台基础原理与课程前置内容 | 🚧 |
+| [第1章 与 Cross-Platform Internals 的衔接](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter1) | 说明前置课程、当前课程和实验项目之间的映射关系 | ✅ |
 | [第2章 Android 跨平台开发实验](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2) | 使用智能座舱电子手册与车辆助手项目贯穿多技术栈实践 | 🚧 |
 | [第2.1节 课程二教学大纲](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2/chapter2_1.md) | 课程目标、七篇内容、实验建议与评价维度 | ✅ |
 | [第2.2节 贯穿项目需求规格说明](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2/chapter2_2.md) | 统一业务需求、页面清单、数据模型与验收标准 | ✅ |

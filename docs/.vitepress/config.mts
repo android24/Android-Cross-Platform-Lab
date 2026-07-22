@@ -25,6 +25,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: '/datawhale-logo.png',
     nav: [
+      { text: '前置课程', link: 'https://android24.github.io/Cross-Platform-Internals/' },
+      { text: '课程衔接', link: '/chapter1/' },
       { text: '课程大纲', link: '/chapter2/chapter2_1' },
       { text: '项目规格', link: '/chapter2/chapter2_2' },
       { text: 'GitHub', link: 'https://github.com/android24/Android-Cross-Platform-Lab' },
@@ -52,7 +54,7 @@ export default defineConfig({
     sidebar: [
       {
         items: [
-          { text: '第1章：跨平台原理前置说明', link: '/chapter1/' },
+          { text: '第1章：与 Cross-Platform Internals 的衔接', link: '/chapter1/' },
           { text: '第2章：Android 跨平台开发实验', 
             items: [
               { text: '第2.1节：课程二教学大纲', link: '/chapter2/chapter2_1' },
