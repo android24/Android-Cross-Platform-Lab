@@ -58,7 +58,8 @@ export default defineConfig({
           { text: '第2章：Android 跨平台开发实验', 
             items: [
               { text: '第2.1节：课程二教学大纲', link: '/chapter2/chapter2_1' },
-              { text: '第2.2节：贯穿项目需求规格说明', link: '/chapter2/chapter2_2' }
+              { text: '第2.2节：贯穿项目需求规格说明', link: '/chapter2/chapter2_2' },
+              { text: '实验路线图', link: '/chapter2/lab-roadmap' }
             ]
            }
         ]

@@ -46,6 +46,22 @@ Android 跨平台开发实验
 
 项目面向智能座舱横屏场景，主要提供车辆电子手册浏览、搜索、收藏、历史、离线访问、车辆状态展示和原生能力调用等功能。它既包含普通 App 的列表、详情、搜索、状态管理和缓存，也包含车机场景里的横屏、多分辨率、多 Display、系统权限、Service 和模拟车辆数据。
 
+## 课程阶段路线图
+
+课程二不建议按“框架 API 清单”平铺推进，而是按“基准、对照、共享、评测”的节奏逐步展开。
+
+| 阶段 | 目标 | 主要产出 |
+| --- | --- | --- |
+| 阶段 0：原理热身 | 从 Cross-Platform Internals 迁移到工程实验 | 渲染路径图、原生调用链、工程风险预测 |
+| 阶段 1：Android 原生基准 | 建立功能、架构和性能基准 | `native-android/` P0 版本和基础性能记录 |
+| 阶段 2：Web/PWA 与 Hybrid 对照 | 验证 Web 独立运行和 WebView 承载的差异 | `web-pwa/`、`hybrid-webview/` 和 Bridge 说明 |
+| 阶段 3：React Native 与 Flutter 对照 | 比较两类主流跨平台 UI 框架 | RN Native Module、Flutter Platform Channel 和性能记录 |
+| 阶段 4：KMP 共享业务逻辑 | 抽象可复用的数据层和 Repository | `kmp/` 共享模型、Repository、平台差异说明 |
+| 阶段 5：特色跨平台专题 | 扩展智能座舱、大屏、多 Display 和 Unity 场景 | Unity/Android 混合验证、系统能力边界设计 |
+| 阶段 6：性能评测与企业选型 | 汇总多技术栈结果并形成选型结论 | `benchmarks/` 记录和最终选型报告 |
+
+更细的任务拆解见 [实验路线图](./lab-roadmap.md)。教学时可以把每个阶段拆成 1 到 3 次实验课，课程项目则持续围绕同一份 `shared-assets/` 数据和同一组验收标准推进。
+
 ## 课程结构
 
 ### 第一篇：Android 原生基准

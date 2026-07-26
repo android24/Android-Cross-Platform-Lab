@@ -52,6 +52,7 @@ https://android24.github.io/Android-Cross-Platform-Lab/
 | [第2章 Android 跨平台开发实验](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2) | 使用智能座舱电子手册与车辆助手项目贯穿多技术栈实践 | 🚧 |
 | [第2.1节 课程二教学大纲](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2/chapter2_1.md) | 课程目标、七篇内容、实验建议与评价维度 | ✅ |
 | [第2.2节 贯穿项目需求规格说明](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2/chapter2_2.md) | 统一业务需求、页面清单、数据模型与验收标准 | ✅ |
+| [实验路线图](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2/lab-roadmap.md) | 将贯穿项目拆成阶段任务、验收标准和思考问题 | ✅ |
 
 课程二工程目录规划：
 
