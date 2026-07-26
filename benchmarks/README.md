@@ -12,6 +12,7 @@ memory.md
 fps.md
 package-size.md
 engineering-cost.md
+native-android-sample.md
 ```
 
 ## 统一技术栈
@@ -34,3 +35,7 @@ engineering-cost.md
 - 区分 Debug、Release、首次安装、二次启动等状态。
 - 记录测试方法，不只记录结果。
 - 遇到无法直接比较的指标，应说明原因和替代观察方式。
+
+## 样例记录
+
+`native-android-sample.md` 提供 Android 原生基准版本的记录样例。它的作用是示范“如何记录”，不代表课程项目的真实性能结论。学习者应复制该结构，并在自己的设备和实现版本上填写真实数据。

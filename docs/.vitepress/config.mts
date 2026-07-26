@@ -61,6 +61,12 @@ export default defineConfig({
               { text: '第2.2节：贯穿项目需求规格说明', link: '/chapter2/chapter2_2' },
               { text: '实验路线图', link: '/chapter2/lab-roadmap' }
             ]
+           },
+          { text: '第3章：Android 原生基准实验',
+            items: [
+              { text: '第3章：Android 原生基准实验', link: '/chapter3/' },
+              { text: '第3.1节：Android 原生 P0 实验路径', link: '/chapter3/native-p0-labs' }
+            ]
            }
         ]
       }

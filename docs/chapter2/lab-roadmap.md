@@ -62,6 +62,7 @@
 - `shared-assets/manual/categories.json`
 - `shared-assets/manual/articles.json`
 - `shared-assets/vehicle/status-samples.json`
+- [第3.1节：Android 原生 P0 实验路径](../chapter3/native-p0-labs.md)
 
 任务：
 

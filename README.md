@@ -53,6 +53,8 @@ https://android24.github.io/Android-Cross-Platform-Lab/
 | [第2.1节 课程二教学大纲](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2/chapter2_1.md) | 课程目标、七篇内容、实验建议与评价维度 | ✅ |
 | [第2.2节 贯穿项目需求规格说明](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2/chapter2_2.md) | 统一业务需求、页面清单、数据模型与验收标准 | ✅ |
 | [实验路线图](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2/lab-roadmap.md) | 将贯穿项目拆成阶段任务、验收标准和思考问题 | ✅ |
+| [第3章 Android 原生基准实验](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3) | 建立第一条可跟做的 P0 样板路径，作为后续跨平台方案的对照基准 | 🚧 |
+| [第3.1节 Android 原生 P0 实验路径](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/native-p0-labs.md) | 拆解原生基准工程、共享数据接入、核心 UI、原生能力和性能记录 | ✅ |
 
 课程二工程目录规划：
 
@@ -68,6 +70,7 @@ https://android24.github.io/Android-Cross-Platform-Lab/
 | `unity-android-demo/` | Unity 与 Android 混合实验工程 | 🚧 |
 | `shared-assets/` | 多技术栈共享数据、图片和国际化资源 | ✅ |
 | `benchmarks/` | 启动、内存、帧率、包体积和工程成本记录模板 | ✅ |
+| `benchmarks/native-android-sample.md` | Android 原生基准记录样例和填写模板 | ✅ |
 
 ## 贡献者名单
 

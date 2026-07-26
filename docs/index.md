@@ -17,6 +17,9 @@ hero:
       text: 查看项目规格
       link: /chapter2/chapter2_2
     - theme: alt
+      text: 原生基准实验
+      link: /chapter3/
+    - theme: alt
       text: 前置课程
       link: https://android24.github.io/Cross-Platform-Internals/
 
@@ -29,6 +32,8 @@ features:
     details: 覆盖 Android 原生、Web/PWA、Hybrid、React Native、Flutter、KMP 与 Compose Multiplatform。
   - title: 🌐 性能与选型评估
     details: 从启动速度、内存、帧率、包体积、原生能力成本、调试难度和团队成本形成判断。
+  - title: 🧪 原生基准样板
+    details: 先用 Kotlin 与 Compose 完成 P0 基准路径，再用同一验收口径对照其他技术栈。
 ---
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
