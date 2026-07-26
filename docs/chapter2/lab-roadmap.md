@@ -62,8 +62,7 @@
 - `shared-assets/manual/categories.json`
 - `shared-assets/manual/articles.json`
 - `shared-assets/vehicle/status-samples.json`
-- [第3.1节：原生基准目标与验收口径](../chapter3/chapter3_1.md)
-- [第3.2节：创建原生基准工程](../chapter3/chapter3_2.md)
+- [第3章：Android 原生基准](../chapter3/index.md)
 
 任务：
 

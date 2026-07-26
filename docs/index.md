@@ -33,7 +33,7 @@ features:
   - title: 🌐 性能与选型评估
     details: 从启动速度、内存、帧率、包体积、原生能力成本、调试难度和团队成本形成判断。
   - title: 🧪 原生基准样板
-    details: 先用 Kotlin 与 Compose 完成 P0 基准路径，再用同一验收口径对照其他技术栈。
+    details: 先用 Kotlin、Compose、导航、数据层、状态、缓存、Service 和性能记录建立 Android 原生基准。
 ---
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'

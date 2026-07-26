@@ -53,7 +53,7 @@ Android 跨平台开发实验
 | 阶段 | 目标 | 主要产出 |
 | --- | --- | --- |
 | 阶段 0：原理热身 | 从 Cross-Platform Internals 迁移到工程实验 | 渲染路径图、原生调用链、工程风险预测 |
-| 阶段 1：Android 原生基准 | 建立功能、架构和性能基准 | [`native-android/` P0 版本](../chapter3/chapter3_1.md)和基础性能记录 |
+| 阶段 1：Android 原生基准 | 建立功能、架构和性能基准 | Kotlin/Compose 原生版本、缓存、Service 和基础性能记录 |
 | 阶段 2：Web/PWA 与 Hybrid 对照 | 验证 Web 独立运行和 WebView 承载的差异 | `web-pwa/`、`hybrid-webview/` 和 Bridge 说明 |
 | 阶段 3：React Native 与 Flutter 对照 | 比较两类主流跨平台 UI 框架 | RN Native Module、Flutter Platform Channel 和性能记录 |
 | 阶段 4：KMP 共享业务逻辑 | 抽象可复用的数据层和 Repository | `kmp/` 共享模型、Repository、平台差异说明 |
@@ -87,10 +87,11 @@ Android 跨平台开发实验
 
 建议实验：
 
-- 实验 1：创建 `native-android/` 基准项目，详见 [第3.2节：创建原生基准工程](../chapter3/chapter3_2.md)。
-- 实验 2：实现目录、详情、搜索和收藏。
-- 实验 3：实现本地缓存、离线模式和主题切换。
-- 实验 4：实现车辆数据 Service 与性能采集入口。
+- 实验 1：创建 `native-android/` 基准项目，详见 [第3.1节：Kotlin 与 Compose 项目](../chapter3/chapter3_1.md)。
+- 实验 2：实现页面导航，详见 [第3.2节：页面导航](../chapter3/chapter3_2.md)。
+- 实验 3：实现数据层与状态管理，详见 [第3.3节：数据层](../chapter3/chapter3_3.md) 和 [第3.4节：状态管理](../chapter3/chapter3_4.md)。
+- 实验 4：实现搜索、本地缓存和 Android Service，详见 [第3.5节：搜索](../chapter3/chapter3_5.md)、[第3.6节：本地缓存](../chapter3/chapter3_6.md) 和 [第3.7节：Android Service](../chapter3/chapter3_7.md)。
+- 实验 5：完成性能基准记录，详见 [第3.8节：性能基准](../chapter3/chapter3_8.md)。
 
 ### 第二篇：Web、PWA 与 Hybrid
 

@@ -62,14 +62,17 @@ export default defineConfig({
               { text: '实验路线图', link: '/chapter2/lab-roadmap' }
             ]
            },
-          { text: '第3章：Android 原生基准实验',
+          { text: '第3章：Android 原生基准',
             items: [
-              { text: '第3章：Android 原生基准实验', link: '/chapter3/' },
-              { text: '第3.1节：原生基准目标与验收口径', link: '/chapter3/chapter3_1' },
-              { text: '第3.2节：创建原生基准工程', link: '/chapter3/chapter3_2' },
-              { text: '第3.3节：接入共享数据', link: '/chapter3/chapter3_3' },
-              { text: '第3.4节：实现核心 UI', link: '/chapter3/chapter3_4' },
-              { text: '第3.5节：原生能力与性能记录', link: '/chapter3/chapter3_5' }
+              { text: '第3章：Android 原生基准', link: '/chapter3/' },
+              { text: '第3.1节：Kotlin 与 Compose 项目', link: '/chapter3/chapter3_1' },
+              { text: '第3.2节：页面导航', link: '/chapter3/chapter3_2' },
+              { text: '第3.3节：数据层', link: '/chapter3/chapter3_3' },
+              { text: '第3.4节：状态管理', link: '/chapter3/chapter3_4' },
+              { text: '第3.5节：搜索', link: '/chapter3/chapter3_5' },
+              { text: '第3.6节：本地缓存', link: '/chapter3/chapter3_6' },
+              { text: '第3.7节：Android Service', link: '/chapter3/chapter3_7' },
+              { text: '第3.8节：性能基准', link: '/chapter3/chapter3_8' }
             ]
            }
         ]
