@@ -60,7 +60,7 @@ Android 跨平台开发实验
 | 阶段 5：特色跨平台专题 | 扩展智能座舱、大屏、多 Display 和 Unity 场景 | Unity/Android 混合验证、系统能力边界设计 |
 | 阶段 6：性能评测与企业选型 | 汇总多技术栈结果并形成选型结论 | `benchmarks/` 记录和最终选型报告 |
 
-更细的任务拆解见 [实验路线图](./lab-roadmap.md)。教学时可以把每个阶段拆成 1 到 3 次实验课，课程项目则持续围绕同一份 `shared-assets/` 数据和同一组审验清单推进。审验清单用于阶段复盘，不作为正文主线。
+更细的任务拆解见 [实验路线图](./lab-roadmap.md)。教学时可以把每个阶段拆成 1 到 3 次实验课，课程项目则持续围绕同一份 `shared-assets/` 数据和同一组项目规格推进。
 
 ## 课程结构
 
@@ -87,11 +87,11 @@ Android 跨平台开发实验
 
 建议实验：
 
-- 实验 1：创建 `native-android/` 基准项目，详见 [第3.1节：Kotlin 与 Compose 项目](../chapter3/chapter3_1.md)。
-- 实验 2：实现页面导航，详见 [第3.2节：页面导航](../chapter3/chapter3_2.md)。
-- 实验 3：实现数据层与状态管理，详见 [第3.3节：数据层](../chapter3/chapter3_3.md) 和 [第3.4节：状态管理](../chapter3/chapter3_4.md)。
-- 实验 4：实现搜索、本地缓存和 Android Service，详见 [第3.5节：搜索](../chapter3/chapter3_5.md)、[第3.6节：本地缓存](../chapter3/chapter3_6.md) 和 [第3.7节：Android Service](../chapter3/chapter3_7.md)。
-- 实验 5：完成性能基准记录，详见 [第3.8节：性能基准](../chapter3/chapter3_8.md)。
+- 实验 1：创建 `native-android/` 基准项目，启动 Kotlin + Compose 首页，详见 [第3.1节：Kotlin 与 Compose 项目](../chapter3/chapter3_1.md)。
+- 实验 2：实现横屏优先的目录、详情和功能入口导航，详见 [第3.2节：页面导航](../chapter3/chapter3_2.md)。
+- 实验 3：接入统一 JSON 数据，并用 UI State 管理页面变化，详见 [第3.3节：数据层](../chapter3/chapter3_3.md) 和 [第3.4节：状态管理](../chapter3/chapter3_4.md)。
+- 实验 4：实现搜索、收藏或历史持久化、车辆状态刷新，详见 [第3.5节：搜索](../chapter3/chapter3_5.md)、[第3.6节：本地缓存](../chapter3/chapter3_6.md) 和 [第3.7节：Android Service](../chapter3/chapter3_7.md)。
+- 实验 5：记录 Android 原生启动、内存或滚动性能，详见 [第3.8节：性能基准](../chapter3/chapter3_8.md)。
 
 ### 第二篇：Web、PWA 与 Hybrid
 

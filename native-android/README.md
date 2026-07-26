@@ -15,7 +15,54 @@ Android 原生基准工程目录。
 
 ## 当前状态
 
-框架占位，后续补充 Android Studio 工程。当前目录先提供核心实验路径和工程边界，避免后续各技术栈实现时各自发挥，导致最终无法比较。
+已提供 Android Studio 可打开的 Kotlin + Compose 最小 Demo 工程。当前版本先使用内置样例数据跑通核心交互，后续章节会逐步替换为统一资源读取、Repository、缓存、Service 和真实性能记录。
+
+## 学习者进入本目录后要做什么
+
+本目录不是独立 Demo 的随手堆放区，而是课程的 Android 原生基准样本。学习者应按第 3 章的顺序逐步完成：
+
+1. 先创建可启动的 Kotlin + Compose 工程。
+2. 再实现横屏优先的目录和详情主界面。
+3. 接入 `shared-assets/` 中的统一手册和车辆数据。
+4. 用 ViewModel、UI State 和 Repository 整理状态边界。
+5. 增加搜索、收藏或历史、离线模式、车辆状态刷新。
+6. 至少接入通知、文件选择或相机中的一个原生能力。
+7. 在 `benchmarks/` 中记录一次真实设备或模拟器数据。
+
+完成每一步时，不需要追求一次做完所有功能。更重要的是保留清楚的实现边界，这样后续 Web/PWA、Hybrid、React Native、Flutter 和 KMP 才能拿它做对照。
+
+## 运行 Demo
+
+当前目录已经包含一个 Android Studio 可打开的最小 Demo 工程。
+
+推荐试玩路径：
+
+1. 使用 Android Studio 打开 `native-android/`。
+2. 等待 Gradle Sync 完成。
+3. 运行 `app` 到模拟器或真机。
+4. 也可以打开 `CockpitManualDemoApp.kt`，在 Android Studio Preview 中查看横屏和手机两种预览。
+
+Demo 当前已经包含：
+
+- 横屏优先的目录 + 详情布局。
+- 手册目录切换和浏览历史。
+- 收藏按钮。
+- 全局搜索。
+- 中英文切换。
+- 深色主题切换。
+- 离线模式开关。
+- 模拟车辆数据自动刷新。
+- 文件选择、通知模拟和分享 Intent 入口。
+- 性能记录入口，用于课堂统一操作路径。
+
+当前 Demo 主要文件：
+
+| 文件 | 作用 |
+| --- | --- |
+| `app/src/main/java/dev/datawhale/crossplatform/nativeandroid/MainActivity.kt` | 应用入口 |
+| `app/src/main/java/dev/datawhale/crossplatform/nativeandroid/feature/cockpit/CockpitManualDemoApp.kt` | Compose 交互界面和 Preview |
+| `app/src/main/java/dev/datawhale/crossplatform/nativeandroid/core/model/CockpitModels.kt` | 手册、车辆状态、路由等模型 |
+| `app/src/main/java/dev/datawhale/crossplatform/nativeandroid/core/data/SampleCockpitData.kt` | 第一版课堂样例数据 |
 
 ## 核心实验目标
 
@@ -59,6 +106,42 @@ native-android/
 4. 接入 `shared-assets/vehicle/status-samples.json`，完成车辆状态页。
 5. 接入通知、文件选择或相机中的一个原生能力。
 6. 在 `benchmarks/` 中补充一次启动或内存记录。
+
+## 最小可运行目标
+
+第一轮实现只需要达到下面的最小闭环：
+
+```text
+启动应用
+  ↓
+看到横屏优先的目录 + 详情布局
+  ↓
+点击目录切换详情
+  ↓
+进入搜索页并命中一条本地手册数据
+  ↓
+进入车辆状态页看到模拟数据刷新
+  ↓
+触发一个原生能力入口
+  ↓
+记录一次启动或内存数据
+```
+
+这个闭环完成后，Android 原生基准就具备了后续比较价值。深色主题、多语言、完整缓存、更多原生能力和性能专项可以继续迭代。
+
+## 建议记录版本
+
+请在创建工程后补充以下信息：
+
+| 项目 | 当前值 |
+| --- | --- |
+| Android Gradle Plugin | 8.7.3 |
+| Gradle | 使用 Android Studio 或本机 Gradle；Gradle Wrapper 后续补充 |
+| Kotlin | 2.0.21 |
+| Compose Compiler / Compose BOM | Kotlin Compose Plugin 2.0.21 / Compose BOM 2024.10.01 |
+| minSdk | 26 |
+| targetSdk | 35 |
+| 测试设备或模拟器 | 待填写 |
 
 详细实验说明见：
 

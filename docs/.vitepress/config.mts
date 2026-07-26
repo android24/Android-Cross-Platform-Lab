@@ -74,14 +74,6 @@ export default defineConfig({
               { text: '第3.7节：Android Service', link: '/chapter3/chapter3_7' },
               { text: '第3.8节：性能基准', link: '/chapter3/chapter3_8' }
             ]
-           },
-          { text: '课程审验清单',
-            items: [
-              { text: '审验清单说明', link: '/checklists/' },
-              { text: '课程结构执行审验', link: '/checklists/course-structure-review' },
-              { text: '第2章审验清单', link: '/checklists/chapter2-review' },
-              { text: '第3章审验清单', link: '/checklists/chapter3-native-android-review' }
-            ]
            }
         ]
       }

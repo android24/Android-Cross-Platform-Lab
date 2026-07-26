@@ -62,7 +62,6 @@ https://android24.github.io/Android-Cross-Platform-Lab/
 | [第3.6节 本地缓存](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_6.md) | 实现收藏、历史、离线模式和图片缓存策略 | ✅ |
 | [第3.7节 Android Service](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_7.md) | 模拟车辆数据和原生 Service 边界 | ✅ |
 | [第3.8节 性能基准](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_8.md) | 记录启动、内存、帧率、包体积和工程成本 | ✅ |
-| [课程审验清单](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/checklists) | 课程完成后的结构审验、章节复盘和内容一致性检查 | ✅ |
 
 课程二工程目录规划：
 
