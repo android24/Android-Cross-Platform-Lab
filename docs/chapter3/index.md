@@ -14,11 +14,11 @@
 
 ## Demo 入口
 
-本章配套 Demo 位于仓库的 `native-android/` 目录。当前 Demo 已经提供一个可用的 Android Studio 工程，学习者可以先运行或预览，再按本章各小节逐步把样例数据、状态管理、缓存和性能记录做扎实。
+本章配套 Demo 位于仓库的 [`native-android/`](https://github.com/android24/Android-Cross-Platform-Lab/tree/main/native-android) 目录。当前 Demo 已经提供一个可用的 Android Studio 工程，学习者可以先运行或预览，再按本章各小节逐步把样例数据、状态管理、缓存和性能记录做扎实。
 
 建议先试玩以下路径：
 
-1. 打开应用，观察横屏下目录和详情的主从布局。
+1. 打开 [`native-android/`](https://github.com/android24/Android-Cross-Platform-Lab/tree/main/native-android) 工程，观察横屏下目录和详情的主从布局。
 2. 点击不同目录，查看详情页和浏览历史变化。
 3. 进入搜索页，输入“胎压”“空调”或 `charging`。
 4. 点击收藏按钮，再进入设置页查看状态快照。

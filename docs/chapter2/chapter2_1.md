@@ -87,7 +87,7 @@ Android 跨平台开发实验
 
 建议实验：
 
-- 实验 1：创建 `native-android/` 基准项目，启动 Kotlin + Compose 首页，详见 [第3.1节：Kotlin 与 Compose 项目](../chapter3/chapter3_1.md)。
+- 实验 1：创建 [`native-android/`](https://github.com/android24/Android-Cross-Platform-Lab/tree/main/native-android) 基准项目，启动 Kotlin + Compose 首页，详见 [第3.1节：Kotlin 与 Compose 项目](../chapter3/chapter3_1.md)。
 - 实验 2：实现横屏优先的目录、详情和功能入口导航，详见 [第3.2节：页面导航](../chapter3/chapter3_2.md)。
 - 实验 3：接入统一 JSON 数据，并用 UI State 管理页面变化，详见 [第3.3节：数据层](../chapter3/chapter3_3.md) 和 [第3.4节：状态管理](../chapter3/chapter3_4.md)。
 - 实验 4：实现搜索、收藏或历史持久化、车辆状态刷新，详见 [第3.5节：搜索](../chapter3/chapter3_5.md)、[第3.6节：本地缓存](../chapter3/chapter3_6.md) 和 [第3.7节：Android Service](../chapter3/chapter3_7.md)。

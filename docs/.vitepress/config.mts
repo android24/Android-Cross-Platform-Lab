@@ -29,6 +29,7 @@ export default defineConfig({
       { text: '课程衔接', link: '/chapter1/' },
       { text: '课程大纲', link: '/chapter2/chapter2_1' },
       { text: '项目规格', link: '/chapter2/chapter2_2' },
+      { text: 'Demo源码', link: 'https://github.com/android24/Android-Cross-Platform-Lab/tree/main/native-android' },
       { text: 'GitHub', link: 'https://github.com/android24/Android-Cross-Platform-Lab' },
       { text: 'PDF版本下载', link: 'https://github.com/android24/Android-Cross-Platform-Lab/releases' },
     ],

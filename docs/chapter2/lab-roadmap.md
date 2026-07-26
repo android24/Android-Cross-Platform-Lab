@@ -63,6 +63,7 @@
 - `shared-assets/manual/articles.json`
 - `shared-assets/vehicle/status-samples.json`
 - [第3章：Android 原生基准](../chapter3/index.md)
+- [Android 原生 Demo 源码](https://github.com/android24/Android-Cross-Platform-Lab/tree/main/native-android)
 
 任务：
 

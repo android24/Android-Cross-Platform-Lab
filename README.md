@@ -67,7 +67,7 @@ https://android24.github.io/Android-Cross-Platform-Lab/
 
 | 目录 | 说明 | 状态 |
 |  ----  | ---- | ---- |
-| `native-android/` | Android 原生基准工程 | 🚧 |
+| [`native-android/`](https://github.com/android24/Android-Cross-Platform-Lab/tree/main/native-android) | Android 原生基准工程 | 🚧 |
 | `web-pwa/` | 移动 Web 与 PWA 实验工程 | 🚧 |
 | `hybrid-webview/` | Android WebView 与 Hybrid 实验工程 | 🚧 |
 | `react-native/` | React Native 实验工程 | 🚧 |

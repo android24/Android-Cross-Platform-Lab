@@ -21,10 +21,11 @@
 
 本仓库已经提供一个最小 Demo 起点：
 
-- `native-android/app/src/main/java/dev/datawhale/crossplatform/nativeandroid/MainActivity.kt`
-- `native-android/app/src/main/java/dev/datawhale/crossplatform/nativeandroid/feature/cockpit/CockpitManualDemoApp.kt`
-- `native-android/app/src/main/java/dev/datawhale/crossplatform/nativeandroid/core/model/CockpitModels.kt`
-- `native-android/app/src/main/java/dev/datawhale/crossplatform/nativeandroid/core/data/SampleCockpitData.kt`
+- [`native-android/`](https://github.com/android24/Android-Cross-Platform-Lab/tree/main/native-android)
+- [`MainActivity.kt`](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/native-android/app/src/main/java/dev/datawhale/crossplatform/nativeandroid/MainActivity.kt)
+- [`CockpitManualDemoApp.kt`](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/native-android/app/src/main/java/dev/datawhale/crossplatform/nativeandroid/feature/cockpit/CockpitManualDemoApp.kt)
+- [`CockpitModels.kt`](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/native-android/app/src/main/java/dev/datawhale/crossplatform/nativeandroid/core/model/CockpitModels.kt)
+- [`SampleCockpitData.kt`](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/native-android/app/src/main/java/dev/datawhale/crossplatform/nativeandroid/core/data/SampleCockpitData.kt)
 
 课堂中可以先运行这个 Demo，再逐步把样例数据替换为 Repository、缓存和真实性能记录。
 
