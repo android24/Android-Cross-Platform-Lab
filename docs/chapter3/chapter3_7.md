@@ -45,7 +45,7 @@ VehicleUiState
 VehicleStatusScreen
 ```
 
-如果 P0 阶段暂不实现真正的 Android Service，也可以先用等价模拟器，但需要在文档中说明和真实 Service 的差异。
+如果核心版本暂不实现真正的 Android Service，也可以先用等价模拟器，但需要在文档中说明和真实 Service 的差异。
 
 ## 实验任务
 
@@ -55,7 +55,7 @@ VehicleStatusScreen
 4. 说明页面退出、应用后台和资源释放策略。
 5. 记录后续 Hybrid/RN/Flutter 调用车辆数据的可能方式。
 
-## 验收标准
+## 完成后复盘
 
 - 车辆状态可以展示并刷新。
 - 数据更新不会阻塞 UI。

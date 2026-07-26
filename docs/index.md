@@ -52,7 +52,7 @@ const members = [
 
 ## 课程路线
 
-课程二承接 [Cross-Platform Internals](https://android24.github.io/Cross-Platform-Internals/) 课程，采用“同一业务、多种技术栈、统一验收标准”的方式组织。学习者会先用 Android 原生建立基准，再分别使用 Web/PWA、Hybrid、React Native、Flutter、Kotlin Multiplatform、Compose Multiplatform 等方案实现同一组业务能力，最终完成性能、工程成本和企业选型比较。
+课程二承接 [Cross-Platform Internals](https://android24.github.io/Cross-Platform-Internals/) 课程，采用“同一业务、多种技术栈、统一项目规格”的方式组织。学习者会先用 Android 原生建立基准，再分别使用 Web/PWA、Hybrid、React Native、Flutter、Kotlin Multiplatform、Compose Multiplatform 等方案实现同一组业务能力，最终完成性能、工程成本和企业选型比较。
 
 ```text
 Cross-Platform Internals

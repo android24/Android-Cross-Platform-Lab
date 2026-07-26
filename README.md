@@ -51,8 +51,8 @@ https://android24.github.io/Android-Cross-Platform-Lab/
 | [第1章 与 Cross-Platform Internals 的衔接](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter1) | 说明前置课程、当前课程和实验项目之间的映射关系 | ✅ |
 | [第2章 Android 跨平台开发实验](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2) | 使用智能座舱电子手册与车辆助手项目贯穿多技术栈实践 | 🚧 |
 | [第2.1节 课程二教学大纲](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2/chapter2_1.md) | 课程目标、七篇内容、实验建议与评价维度 | ✅ |
-| [第2.2节 贯穿项目需求规格说明](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2/chapter2_2.md) | 统一业务需求、页面清单、数据模型与验收标准 | ✅ |
-| [实验路线图](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2/lab-roadmap.md) | 将贯穿项目拆成阶段任务、验收标准和思考问题 | ✅ |
+| [第2.2节 贯穿项目需求规格说明](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2/chapter2_2.md) | 统一业务需求、页面清单、数据模型与设计关注点 | ✅ |
+| [实验路线图](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2/lab-roadmap.md) | 将贯穿项目拆成阶段任务、阶段产出和思考问题 | ✅ |
 | [第3章 Android 原生基准](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3) | 使用 Kotlin 与 Compose 建立原生功能、架构和性能基准 | 🚧 |
 | [第3.1节 Kotlin 与 Compose 项目](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_1.md) | 创建 `native-android/` 工程骨架和 Compose 首页 | ✅ |
 | [第3.2节 页面导航](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_2.md) | 建立首页、详情、搜索、车辆状态、原生能力等页面流转 | ✅ |
@@ -62,6 +62,7 @@ https://android24.github.io/Android-Cross-Platform-Lab/
 | [第3.6节 本地缓存](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_6.md) | 实现收藏、历史、离线模式和图片缓存策略 | ✅ |
 | [第3.7节 Android Service](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_7.md) | 模拟车辆数据和原生 Service 边界 | ✅ |
 | [第3.8节 性能基准](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_8.md) | 记录启动、内存、帧率、包体积和工程成本 | ✅ |
+| [课程审验清单](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/checklists) | 课程完成后的结构审验、章节复盘和内容一致性检查 | ✅ |
 
 课程二工程目录规划：
 

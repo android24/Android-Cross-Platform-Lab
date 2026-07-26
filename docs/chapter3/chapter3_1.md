@@ -59,7 +59,7 @@ native-android/
 4. 在 `native-android/README.md` 中记录 Gradle、Kotlin、Compose、Android Gradle Plugin 版本。
 5. 保留 `core/data`、`core/model` 和 `core/ui` 目录，为后续章节接入数据和状态做准备。
 
-## 验收标准
+## 完成后复盘
 
 - 应用可以启动到首页。
 - 首页能看到 Android 原生基准的主入口。
