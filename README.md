@@ -46,24 +46,36 @@ https://android24.github.io/Android-Cross-Platform-Lab/
 ## 目录
 课程二最终比较的不是简单代码量，而是开发效率、UI 一致性、原生能力成本、性能、调试难度、包体积、存量接入和团队成本。
 
-|  章节名   | 简介 | 状态 |
-|  ----  | ---- | ---- |
-| [第1章 与 Cross-Platform Internals 的衔接](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter1) | 说明前置课程、当前课程和实验项目之间的映射关系 | ✅ |
-| [第2章 Android 跨平台开发实验](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2) | 使用智能座舱电子手册与车辆助手项目贯穿多技术栈实践 | 🚧 |
-| [第2.1节 课程二教学大纲](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2/chapter2_1.md) | 课程目标、七篇内容、实验建议与评价维度 | ✅ |
-| [第2.2节 贯穿项目需求规格说明](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2/chapter2_2.md) | 统一业务需求、页面清单、数据模型与设计关注点 | ✅ |
-| [实验路线图](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2/lab-roadmap.md) | 将贯穿项目拆成阶段任务、阶段产出和思考问题 | ✅ |
-| [第3章 Android 原生基准](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3) | 使用 Kotlin 与 Compose 建立原生功能、架构和性能基准 | 🚧 |
-| [第3.1节 Kotlin 与 Compose 项目](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_1.md) | 创建 `native-android/` 工程骨架和 Compose 首页 | ✅ |
-| [第3.2节 页面导航](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_2.md) | 建立首页、详情、搜索、车辆状态、原生能力等页面流转 | ✅ |
-| [第3.3节 数据层](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_3.md) | 接入共享数据并建立 Repository | ✅ |
-| [第3.4节 状态管理](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_4.md) | 设计 UI State、事件和加载/错误/空状态 | ✅ |
-| [第3.5节 搜索](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_5.md) | 实现本地搜索、搜索结果和空状态 | ✅ |
-| [第3.6节 本地缓存](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_6.md) | 实现收藏、历史、离线模式和图片缓存策略 | ✅ |
-| [第3.7节 Android Service](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_7.md) | 模拟车辆数据和原生 Service 边界 | ✅ |
-| [第3.8节 性能基准](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_8.md) | 记录启动、内存、帧率、包体积和工程成本 | ✅ |
+### 课程入口
 
-课程二工程目录规划：
+| 内容 | 链接 | 说明 |
+|  ----  | ---- | ---- |
+| 在线阅读 | [GitHub Pages](https://android24.github.io/Android-Cross-Platform-Lab/) | 推荐学习入口 |
+| 前置课程 | [Cross-Platform Internals](https://android24.github.io/Cross-Platform-Internals/) | 先理解跨平台原理，再进入工程实验 |
+| Android Demo | [`native-android/`](https://github.com/android24/Android-Cross-Platform-Lab/tree/main/native-android) | 第3章配套 Kotlin + Compose 原生基准 Demo |
+
+### 课程章节
+
+| 层级 | 章节 | 内容定位 | 状态 |
+|  ----  | ---- | ---- | ---- |
+| 1 | [第1章 与 Cross-Platform Internals 的衔接](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter1) | 说明前置课程、当前课程和实验项目之间的映射关系 | ✅ |
+| 2 | [第2章 Android 跨平台开发实验](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2) | 课程路线、项目规格和实验路线图 | 🚧 |
+| 2.1 | [课程二教学大纲](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2/chapter2_1.md) | 课程目标、七篇内容、实验建议与评价维度 | ✅ |
+| 2.2 | [贯穿项目需求规格说明](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2/chapter2_2.md) | 统一业务需求、页面清单、数据模型与设计关注点 | ✅ |
+| 2.3 | [实验路线图](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2/lab-roadmap.md) | 将贯穿项目拆成阶段任务、阶段产出和思考问题 | ✅ |
+| 3 | [第3章 Android 原生基准](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3) | 使用 Kotlin 与 Compose 建立原生功能、架构和性能基准 | 🚧 |
+| 3.1 | [Kotlin 与 Compose 项目](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_1.md) | 创建 `native-android/` 工程骨架和 Compose 首页 | ✅ |
+| 3.2 | [页面导航](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_2.md) | 建立首页、详情、搜索、车辆状态、原生能力等页面流转 | ✅ |
+| 3.3 | [数据层](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_3.md) | 接入共享数据并建立 Repository | ✅ |
+| 3.4 | [状态管理](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_4.md) | 设计 UI State、事件和加载/错误/空状态 | ✅ |
+| 3.5 | [搜索](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_5.md) | 实现本地搜索、搜索结果和空状态 | ✅ |
+| 3.6 | [本地缓存](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_6.md) | 实现收藏、历史、离线模式和图片缓存策略 | ✅ |
+| 3.7 | [Android Service](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_7.md) | 模拟车辆数据和原生 Service 边界 | ✅ |
+| 3.8 | [性能基准](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_8.md) | 记录启动、内存、帧率、包体积和工程成本 | ✅ |
+
+后续章节会按同一贯穿项目继续补齐 Web/PWA、Hybrid、React Native、Flutter、KMP、Compose Multiplatform、Unity/Android 混合和最终选型比较。
+
+### 工程目录
 
 | 目录 | 说明 | 状态 |
 |  ----  | ---- | ---- |
