@@ -65,7 +65,11 @@ export default defineConfig({
           { text: '第3章：Android 原生基准实验',
             items: [
               { text: '第3章：Android 原生基准实验', link: '/chapter3/' },
-              { text: '第3.1节：Android 原生 P0 实验路径', link: '/chapter3/native-p0-labs' }
+              { text: '第3.1节：原生基准目标与验收口径', link: '/chapter3/chapter3_1' },
+              { text: '第3.2节：创建原生基准工程', link: '/chapter3/chapter3_2' },
+              { text: '第3.3节：接入共享数据', link: '/chapter3/chapter3_3' },
+              { text: '第3.4节：实现核心 UI', link: '/chapter3/chapter3_4' },
+              { text: '第3.5节：原生能力与性能记录', link: '/chapter3/chapter3_5' }
             ]
            }
         ]

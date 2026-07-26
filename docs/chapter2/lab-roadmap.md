@@ -62,7 +62,8 @@
 - `shared-assets/manual/categories.json`
 - `shared-assets/manual/articles.json`
 - `shared-assets/vehicle/status-samples.json`
-- [第3.1节：Android 原生 P0 实验路径](../chapter3/native-p0-labs.md)
+- [第3.1节：原生基准目标与验收口径](../chapter3/chapter3_1.md)
+- [第3.2节：创建原生基准工程](../chapter3/chapter3_2.md)
 
 任务：
 

@@ -54,7 +54,11 @@ https://android24.github.io/Android-Cross-Platform-Lab/
 | [第2.2节 贯穿项目需求规格说明](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2/chapter2_2.md) | 统一业务需求、页面清单、数据模型与验收标准 | ✅ |
 | [实验路线图](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter2/lab-roadmap.md) | 将贯穿项目拆成阶段任务、验收标准和思考问题 | ✅ |
 | [第3章 Android 原生基准实验](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3) | 建立第一条可跟做的 P0 样板路径，作为后续跨平台方案的对照基准 | 🚧 |
-| [第3.1节 Android 原生 P0 实验路径](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/native-p0-labs.md) | 拆解原生基准工程、共享数据接入、核心 UI、原生能力和性能记录 | ✅ |
+| [第3.1节 原生基准目标与验收口径](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_1.md) | 明确 P0/P1/P2 范围、交付物和评价标准 | ✅ |
+| [第3.2节 创建原生基准工程](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_2.md) | 创建 Kotlin + Compose 工程，建立模块边界 | ✅ |
+| [第3.3节 接入共享数据](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_3.md) | 接入手册、车辆和多语言共享数据 | ✅ |
+| [第3.4节 实现核心 UI](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_4.md) | 实现目录、详情、搜索和车辆状态页面 | ✅ |
+| [第3.5节 原生能力与性能记录](https://github.com/android24/Android-Cross-Platform-Lab/blob/main/docs/chapter3/chapter3_5.md) | 接入原生能力并形成第一份性能记录 | ✅ |
 
 课程二工程目录规划：
 

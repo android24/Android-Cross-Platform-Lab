@@ -60,7 +60,13 @@ native-android/
 5. 接入通知、文件选择或相机中的一个原生能力。
 6. 在 `benchmarks/` 中补充一次启动或内存记录。
 
-详细实验说明见 `docs/chapter3/native-p0-labs.md`。
+详细实验说明见：
+
+- `docs/chapter3/chapter3_1.md`：原生基准目标与验收口径
+- `docs/chapter3/chapter3_2.md`：创建原生基准工程
+- `docs/chapter3/chapter3_3.md`：接入共享数据
+- `docs/chapter3/chapter3_4.md`：实现核心 UI
+- `docs/chapter3/chapter3_5.md`：原生能力与性能记录
 
 ## 对照记录
 
